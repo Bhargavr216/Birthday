@@ -10,6 +10,44 @@ body {
   background-image: linear-gradient(to bottom, #190e14, #0d0d4b 30%, #c76075 80%, #e9b64b 95%);
   background-image: radial-gradient(circle at center bottom, #e9b64b, #c76075 15%, #0d0d4b 75%, #190e14 90%);
 }
+  /* Centered container for the message */
+    .message-container {
+	height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;  /* Center content vertically */
+      font-family: 'Courier New', monospace;
+      background-color: transparent;
+   
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+      padding: 30px;
+      border-radius: 10px;
+      width: 80%;  /* Adjust width to fit the screen */
+    }
+
+    
+
+    
+ /* Responsive adjustments for smaller screens */
+    @media (max-width: 768px) {
+     
+      .message-container {
+        width: 95%;  /* Make the container a bit narrower on smaller screens */
+        padding: 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+     
+
+      .message-container {
+        width: 100%;  /* Full width for very small screens */
+        padding: 15px;
+      }
+    }
+
 
 div#beach,
 canvas#canvas {
