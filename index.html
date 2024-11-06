@@ -3,11 +3,55 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>SUPRISEEE</title>
+        <title>Birthday ANU PANDI</title>
         
         <!-- Link CSS Style.css file-->
         
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
+ <style>
+    /* Reset margin and padding */
+    
+   
+    /* Centered container for the message */
+    .message-container {
+	height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;  /* Center content vertically */
+      font-family: 'Courier New', monospace;
+      background-color: transparent;
+   
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+      padding: 30px;
+      border-radius: 10px;
+      width: 80%;  /* Adjust width to fit the screen */
+    }
+
+    
+
+    
+ /* Responsive adjustments for smaller screens */
+    @media (max-width: 768px) {
+     
+      .message-container {
+        width: 95%;  /* Make the container a bit narrower on smaller screens */
+        padding: 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+     
+
+      .message-container {
+        width: 100%;  /* Full width for very small screens */
+        padding: 15px;
+      }
+    }
+
+
+  </style>
         
     </head>
     <body>
@@ -63,17 +107,24 @@
                 </div>
             </div>
         </div>
+
+<div class="message-container">
+    <div class="neon-text">
+      Wishing you a day as bright and <br> beautiful as the full moon! 🌟<br>
+      Just like the moon lights up the <br> night, you light up every room <br> you walk into. <br>
+      May your year be filled with lots <br> of love, laughter, and all <br> your favorite things, <br> shining as bright as the stars! 💫<br><br>
+      
+      Keep being your awesome, amazing <br>  self — you're out of this world! <br> 🚀🎉<br><br>
+      
+      Enjoy your special day,and don't <br> forget to make a wish! 🌙💖
+    </div>
+  </div>
         
         <div id="video"></div>
-        <audio controls autoplay loop muted>
-  <source src="audiofile.mp3" type="audio/mp3">
-  <source src="audiofile.ogg" type="audio/ogg">
-  Your browser does not support the audio element.
-</audio>
+        
 
         
-        
-        <script src="index.js"></script>
+        <script src="js/index.js"></script>
         
     </body>
 </html>
